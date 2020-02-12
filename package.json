@@ -8,6 +8,7 @@
     "task-1": "nodemon index.js",
     "task-2": "node child-process.js",
     "task-3": "node list-files.js",
+    "task-4": "nodemon http-file-access.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
