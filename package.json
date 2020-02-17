@@ -2,13 +2,12 @@
   "name": "training-task",
   "version": "1.0.0",
   "description": "",
-  "main": "index.js",
+  "main": "homeWork1/index.js",
   "scripts": {
-    "start": "nodemon index.js",
-    "task-1": "nodemon index.js",
-    "task-2": "node child-process.js",
-    "task-3": "node list-files.js",
-    "task-4": "nodemon http-file-access.js",
+    "hw1-task-1": "nodemon homeWork1/index.js",
+    "hw1-task-2": "node homeWork1/child-process.js",
+    "hw1-task-3": "node homeWork1/list-files.js",
+    "hw1-task-4": "nodemon homeWork1/http-file-access.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
