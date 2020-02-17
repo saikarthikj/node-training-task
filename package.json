@@ -8,6 +8,7 @@
     "hw1-task-2": "node homeWork1/child-process.js",
     "hw1-task-3": "node homeWork1/list-files.js",
     "hw1-task-4": "nodemon homeWork1/http-file-access.js",
+    "hw2-task-1": "nodemon homeWork2/task1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -22,5 +23,9 @@
   "homepage": "https://github.com/saikarthikj/node-training-task#readme",
   "devDependencies": {
     "nodemon": "^2.0.2"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "express": "^4.17.1"
   }
 }
