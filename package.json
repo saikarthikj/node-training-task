@@ -13,6 +13,7 @@
     "hw2-task-3": "nodemon homeWork2/task3.js",
     "hw2-task-4": "nodemon homeWork2/task4.js",
     "hw2-task-5": "nodemon homeWork2/task5.js",
+    "hw3-task-1": "nodemon homeWork3/task1.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
@@ -31,6 +32,7 @@
   "dependencies": {
     "@hapi/joi": "^17.1.0",
     "body-parser": "^1.19.0",
-    "express": "^4.17.1"
+    "express": "^4.17.1",
+    "mongoose": "^5.9.2"
   }
 }
