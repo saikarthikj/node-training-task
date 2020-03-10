@@ -1,10 +1,10 @@
-var express = require('express'),
-    router = express.Router();
-var fs = require("fs");
-var bookSchema = require('../models/books');
+const express = require('express');
+const router = express.Router();
+const fs = require("fs");
+const bookSchema = require('../models/books');
 
 router.get("/", (req, res) => {
-    var booksData = JSON.parse(fs.readFileSync("books.json", 'utf8'));
+    let booksData = JSON.parse(fs.readFileSync("books.json", 'utf8'));
     if (Object.keys(req.query).length) {
         const yearToFind = req.query.year;
         const startingPrice = +req.query.pricestart;
