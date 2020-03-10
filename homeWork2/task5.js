@@ -4,13 +4,13 @@
  * /download/pdf – this should download a PDF
  */
 
-var express = require("express");
-var app = express();
-var bodyParser = require('body-parser');
+const express = require("express");
+const app = express();
+const bodyParser = require('body-parser');
 
-var downloadRoutes = require("../routes/downloads");
+const downloadRoutes = require("../routes/downloads");
 
-var port = process.env.PORT || 3000;
+const port = process.env.PORT || 3000;
 
 app.use(bodyParser.json());
 app.use(express.static('public'));
